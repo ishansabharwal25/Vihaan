@@ -2,11 +2,8 @@ import Image from "next/image";
 
 export default function Motivation() {
   return (
-    <section
-      id="motivation"
-      className="my-5 px-5 bg-slate-800 text-white rounded-t-lg py-4"
-    >
-      <h2 className="text-5xl md:text-center">Aim</h2>
+    <section id="motivation" className="my-5 px-5 py-4">
+      <h2 className="text-5xl md:text-center">More</h2>
       <div className="pt-10">
         <ul className="flex flex-col space-y-5">
           <li className="flex-col flex sm:flex-row sm:items-center justify-between gap-2 px-5">
@@ -18,8 +15,8 @@ export default function Motivation() {
             </p>
             <div className="relative flex-1 aspect-video w-[80vw] sm:max-w-prose mx-auto sm:mx-0">
               <Image
-                src={"/1.jpg"}
-                alt="solar panels in evening"
+                src={"/6.jpg"}
+                alt="solar panels"
                 fill
                 className="rounded-lg"
               />
@@ -34,8 +31,8 @@ export default function Motivation() {
             </p>
             <div className="relative flex-1 aspect-video w-[80vw] sm:max-w-prose mx-auto sm:mx-0">
               <Image
-                src={"/2.png"}
-                alt="solar panels on roof"
+                src={"/7.jpg"}
+                alt="solar panels"
                 fill
                 className="rounded-lg"
               />
@@ -50,8 +47,8 @@ export default function Motivation() {
             </p>
             <div className="relative flex-1 aspect-video w-[80vw] sm:max-w-prose mx-auto sm:mx-0">
               <Image
-                src={"/3.png"}
-                alt="solar panels separate"
+                src={"/9.png"}
+                alt="solar panels"
                 fill
                 className="rounded-lg"
               />
@@ -66,7 +63,7 @@ export default function Motivation() {
             </p>
             <div className="relative flex-1 aspect-video w-[80vw] sm:max-w-prose mx-auto sm:mx-0">
               <Image
-                src={"/4.png"}
+                src={"/10.jpg"}
                 alt="solar panels in grass"
                 fill
                 className="rounded-lg"
